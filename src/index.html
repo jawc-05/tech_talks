@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
@@ -38,8 +39,8 @@
         </div>
     </header>
 
-    <section class="event">
-        <div class="container">
+    <section class="event event--frontend">
+        <div class="container"  data-aos="zoom-in-right">
             <div class="event__content">
                 <h2 class="event__content__title">Front-end</h2>
                 <p class="event__content__description">
@@ -50,6 +51,42 @@
         </div>
     </section>
 
+    <section class="event event--ux-ui event--image-left">
+        <div class="container" data-aos="zoom-in-left">
+            <div class="event__content">
+                <h2 class="event__content__title">UI/UX</h2>
+                <p class="event__content__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolores ducimus nesciunt facere! Nihil iure id ut aut repellendus eos dolorum beatae nisi voluptatum eveniet, aliquam, ratione quia numquam tenetur?
+                </p>
+            </div>
+            <img class="event__image" src="./images/ui-ux.png" alt="Ui/UX">
+        </div>
+    </section>
+
+    <section class="event event--data-science">
+        <div class="container" data-aos="zoom-in-right">
+            <div class="event__content">
+                <h2 class="event__content__title">DataScience</h2>
+                <p class="event__content__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolores ducimus nesciunt facere! Nihil iure id ut aut repellendus eos dolorum beatae nisi voluptatum eveniet, aliquam, ratione quia numquam tenetur?
+                </p>
+            </div>
+            <img class="event__image" src="./images/data.png" alt="DataScience">
+        </div>
+    </section>
+
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="zoom-in-left">
+            <div class="event__content">
+                <h2 class="event__content__title">BackEnd</h2>
+                <p class="event__content__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolores ducimus nesciunt facere! Nihil iure id ut aut repellendus eos dolorum beatae nisi voluptatum eveniet, aliquam, ratione quia numquam tenetur?
+                </p>
+            </div>
+            <img class="event__image" src="./images/backend.png" alt="BackEnd">
+        </div>
+    </section>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="scripts/main.js"></script>
 </body>
 </html>
