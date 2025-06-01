@@ -9,7 +9,7 @@ Este repositório foi criado para fins de estudo em desenvolvimento front-end, u
 - [AOS - Animate On Scroll](https://michalsnik.github.io/aos/)
 - [BEM](http://getbem.com/)
 
-## 📄 [Licença] (LICENSE)
+## 📄 [Licença](LICENSE)
 
 Este projeto está sob a licença MIT. Sinta-se à vontade para usar, modificar e compartilhar!
 
